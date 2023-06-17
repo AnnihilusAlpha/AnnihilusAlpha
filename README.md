@@ -1,10 +1,5 @@
-- 👋 Hi, I’m @AnnihilusAlpha
-- 👀 I’m interested in Python programming.
-- 🌱 I’m currently learning Python and Java.
-- 💞️ I’m looking to collaborate on basic Python projects.
-- 📫 How to reach me :- Email:- sanket12sawant@gmail.com
-
-<!---
-AnnihilusAlpha/AnnihilusAlpha is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- Hi, I’m Sanket Sawant.
+- I’m interested in learning contemporary technologies and my aim is to enhance my understanding in this domain.
+- I’m currently learning Python and C++.
+- I’m looking to collaborate on basic projects to enhance my knowledge.
+- How to reach me :- Email:- sanket12sawant@gmail.com
