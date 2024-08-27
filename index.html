@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Real Madrid Fanpage</title>
+</head>
+<body>
+  <section class="showcase ">
+    <header>
+      <h2 class="logo">Real Madrid Club de Fútbol</h2>
+      <div class="toggle "></div>
+    </header>
+    <video src="media/real.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Los Blancos </h2> 
+      <h3>The most successful football club of all time</h3>
+      <p>“Ninety minutes in the Bernabeu is a very long time.” - Juanito</p>
+      <a href="https://www.realmadrid.com/en-US">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/RealMadrid/"><img src="media/facebook.png"></a></li>
+      <li><a href="https://x.com/realmadrid"><img src="media/x.png"></a></li>
+      <li><a href="https://www.instagram.com/realmadrid/"><img src="media/insta.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="players.html">Players and Staff</a></li>
+      <li><a href="fixtures.html">Fixtures</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <script>
+      const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</body>
+</html>
